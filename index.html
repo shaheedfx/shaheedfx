@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shaheedfx Academy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+                  
+<body>
+    
+    <!-- Header Section -->
+    <header>       
+      <h1>Welcome to Shaheedfx Academy</h1>    
+      <p>Your journey into the digital glow</p>    
+      <button id="exploreButton">Explore</button>  
+    </header>
+
+    <!-- Main Content -->
+    <section id="about">       
+      <h2>About Shaheedfx Academy</h2>      
+      <p>We are a digital space dedicated to bringing light into the virtual world with unique experiences and interactive content.</p>    
+    </section>
+
+    <section id="services">
+     <h2>Our Services</h2>
+     <ul>            
+       <li>Creative Design</li>            
+       <li>Web Development</li>            
+       <li>Digital Marketing</li>      
+     </ul>   
+    </section> 
+
+    <section id="contact">        
+      <h2>Contact Us</h2>        
+      <p>Ready to start your journey with us? <a href="#">Get in touch!</a></p>
+    </section>
+
+    <!-- Footer -->    
+    <footer>       
+         <p>&copy; 2024 Shaheedfx Academy. All rights reserved.</p>   
+    </footer>
+
+     <script src="script.js"></script>
+     
+     document.addEventListener("DOMContentLoaded", function() { 
+      // Smooth Scroll to "About" section when button is clicked  
+      const exploreButton = document.getElementById("exploreButton");
+     
+      exploreButton.addEventListener("click", function() {      
+        document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+       });
+     });  
+    
+</body> 
+</html> 
